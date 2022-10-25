@@ -1,0 +1,276 @@
+
+.container-fluid
+{
+    font-family: "Times New Roman", Times, serif;
+}
+[class*= "bg-m"]
+{
+    background-color: #e9981e;
+    border: 1px solid black;
+}
+
+#logo-block
+{
+    width: 150px;
+}
+
+#desc-block
+{
+    height: 200px;
+    background-image: url("/images/bar.png");
+    background-position: center;
+    background-repeat:  no-repeat;
+
+}
+#description
+{
+    background-color: #54545468;
+}
+
+.topper
+{
+    height: 100px;
+}
+
+.footer
+{
+    height: 50px;
+}
+
+#TextZorder
+{
+    position: absolute;
+    z-index: 20;
+    background-color: #70707060;
+    color: #d3d3d3;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.TextBG
+{
+    background-color: #0000006e;
+}
+
+#CardBG
+{
+    background-color: #0000002d;
+    border: none;
+}
+
+@media screen and (min-width: 1855px)
+{
+    .footText
+    {
+
+    }
+
+    #DescTop
+    {
+        font-size: 40pt;
+    }
+}
+
+@media screen and (min-width: 1355px) and (max-width: 1854px)
+{
+    #DescTop
+    {
+        font-size: 32pt;
+    }
+}
+
+@media screen and (min-width: 660px) and (max-width: 1354px)
+{
+    #DescTop
+    {
+        font-size: 20pt;
+    }
+}
+
+@media screen and (min-width: 282px) and  (max-width: 659px)
+{
+    #DescTop
+    {
+        font-size: 12pt;
+    }
+}
+
+@media screen and (max-width: 281px)
+{
+    #DescTop
+    {
+        font-size: 8pt;
+    }
+}
+
+.content-box
+{
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+}
+
+.footText
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.footText p
+{
+    margin: 0;
+}
+
+
+
+.bgc1
+{
+    background-color: #53504d;
+    color:#D7CEC7 ;
+}
+.bgc2
+{
+    background-color: #b9b1ab;
+}
+.bgc3
+{
+    background-color: #76323F;
+}
+.bgc4
+{
+    background-color: #C09F80;
+}
+.bgc5
+{
+    background-color: #272727;
+    color:#D7CEC7 ;
+}
+.bgc6
+{
+    background-color: #6b6056;
+    color:#D7CEC7 ;
+}
+
+/* The code starts here by Federico.M */
+
+.textfefe 
+{
+    /* Federico.M*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 30px;
+    text-align: center;      
+}
+
+.text1fefe
+{
+    /* Federico.M*/
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+.text2fefe
+{
+    /* Federico.M*/
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.gallery
+{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 5vw);
+    grid-gap: 15px;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery__item--1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.gallery__item--2{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.gallery__item--3{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.gallery__item--4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.gallery__item--5{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+ul {
+    /* Federico.M*/
+    list-style-type: none;
+   
+  }
+
+.list-games{
+    /* Federico.M*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text3_1{
+    /* Federico.M*/
+    font-size: 30px;
+}
+.text3_2 , .text5_2{
+    /* Federico.M*/
+  font-size: 25px;
+}
+.text5{
+    /* Federico.M*/
+    text-align: center;
+   }
+
+
+.text5_1{
+    /* Federico.M*/
+    
+    font-size: 30px;
+   
+}
+.text5_2{
+    /* Federico.M*/
+    font-size:20px;
+   }
+
+.text5_3{
+    /* Federico.M*/
+    font-size:20px;
+    
+}
+
+
+
+
