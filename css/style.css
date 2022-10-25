@@ -1,8 +1,14 @@
 @import "./bootstrap/bootstrap-reboot.css";
 @import "./bootstrap/bootstrap-utilities.css";
 @import "./bootstrap/bootstrap.min.css";
-.container-fluid
-{
+
+html, body {
+    padding:0; 
+    margin:0; 
+    height:100%;
+}
+
+.container-fluid {
     font-family: "Times New Roman", Times, serif;
 }
 [class*= "bg-m"]
@@ -155,6 +161,44 @@
 }
 
 /* The code starts here by Federico.M */
+.carousel-inner>.carousel-item>img {
+    width: 100%;
+    height:35vh;
+  }
+.container-gallery{
+    margin-top: 5px;
+}
+.container-content{
+    margin-top: 5px;
+}
+.img-fluid {
+    width: 220px;
+    height: 200px;
+}
+
+.article-join{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list-options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.list-reasons li{
+    text-align: center;
+}
+
+footer {
+    position: relative; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+}
+
 
 .textfefe 
 {
